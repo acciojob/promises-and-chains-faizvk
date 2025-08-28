@@ -10,7 +10,7 @@ btn.addEventListener("click", (e) => {
   const age = parseInt(ageInput.value.trim());
 
   if (name === "" || isNaN(age)) {
-    alert("Please enter valid details.");
+    alert("Please enter valid details");
   } else {
     const myPromise = new Promise((resolve, reject) => {
       setTimeout(() => {
